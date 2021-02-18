@@ -7,12 +7,12 @@ echo 'ALOK:1234' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 
-sudo apt install qbittorrent
+
 
 wget https://dn3.freedownloadmanager.org/6/latest/freedownloadmanager.deb
 sudo dpkg -i freedownloadmanager.deb
 
-sudo apt install qbittorrent
+
 
 
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
